@@ -568,32 +568,32 @@ public class ProcessamentoImagem {
 
             if(valorCor < 32 ){
 
-                cores[1] = 15;
-                cores[2] = 56;
-                cores[3] = 15;
+                cores[1] = 37;
+                cores[2] = 63;
+                cores[3] = 54;
                 return cores;
 
             }else if((valorCor >= 32) &&
                     (valorCor < 128)){
 
-                cores[1] = 48;
-                cores[2] = 98;
-                cores[3] = 25;
+                cores[1] = 49;
+                cores[2] = 85;
+                cores[3] = 70;
                 return cores;
 
             }else if((valorCor >= 128) &&
                     (valorCor < 223) ){
 
-                cores[1] = 139;
-                cores[2] = 172;
-                cores[3] = 35;
+                cores[1] = 86;
+                cores[2] = 120;
+                cores[3] = 71;
                 return cores;
 
             }else{
 
-                cores[1] = 190;
-                cores[2] = 223;
-                cores[3] = 45;
+                cores[1] = 128;
+                cores[2] = 134;
+                cores[3] = 13;
                 return cores;
 
             }           
