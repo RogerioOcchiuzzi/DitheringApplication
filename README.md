@@ -1,4 +1,4 @@
-# DitheringApplication
+# Processamento de Imagens
 Aplicativo para aplicar Dithering em imagens.
 
 
